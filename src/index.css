@@ -1,0 +1,46 @@
+* {
+	box-sizing: border-box;
+	vertical-align: middle;
+	position: relative;
+}
+body {
+	margin: 0;
+	padding: 15px;
+}
+
+pre {
+	font-family: Monaco, Consolas, monospace;
+}
+body,
+select,
+button,
+input {
+	font: 14px/1.25 Helvetica, Arial, sans-serif;
+}
+input {
+	padding: 0 8px;
+	border: 1px solid blue;
+	height: 28px;
+	line-height: 28px;
+}
+button {
+	padding: 0 8px;
+	height: 28px;
+	border: 1px solid blue;
+	font-weight: bold;
+	color: blue;
+	margin-right: 2px;
+}
+button.selected {
+	background-color: rgba(0, 0, 255, 0.25);
+}
+h4 {
+	padding-bottom: 3px;
+	margin: 0;
+}
+p {
+	margin-top: 0;
+}
+.LibraryList .search-bar {
+	padding-bottom: 15px;
+}
